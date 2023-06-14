@@ -1,15 +1,15 @@
-import datetime
-import pytz
+import datetime # Импортирование модуля для работы с датой и временем
+import pytz # импортирование модуля для работы с часовыми поясами
 
-tz = pytz.timezone('Europe/Moscow')
-now = datetime.datetime.now(tz)
+tz = pytz.timezone('Europe/Moscow') # Получаем информацию о часовом поясе "Europe/Moscow"
+now = datetime.datetime.now(tz) # Получаем текущее время now и присваиваем ему значение текущего дня и времени в указанном часовом поясе
 
-timetable = [
+timetable = [ # Формируем список занятий
     {
-        'date': datetime.date(2023, 6, 13),
-        'time': datetime.time(19, 0),
-        'lesson': 'Создание структуры базы данных (лекция)',
-        'teacher': 'Ильнар Шафигуллин',
+        'date': datetime.date(2023, 6, 13), # Дата в формате год, месяц, число
+        'time': datetime.time(19, 0), # Время в формате часы, минуты
+        'lesson': 'Создание структуры базы данных (лекция)', # Название урока
+        'teacher': 'Ильнар Шафигуллин', # Имя преподавателя
     },
     {
         'date': datetime.date(2023, 6, 13),
