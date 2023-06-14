@@ -1,7 +1,6 @@
 import time
 import datetime
 import logging
-import asyncio
 import pytz
 import os
 import sys
