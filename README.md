@@ -1,4 +1,4 @@
-# GbReminderBot
+# GBReminderBot
 
 Телеграм бот с расписанием занятий в GeekBrains
 
