@@ -9,7 +9,7 @@ import sys
 from aiogram import Bot, Dispatcher, executor, types
 from lessons import timetable
 
-TOKEN = "***********" # Ваш личный токет бота
+TOKEN = "***********" # Ваш личный токен бота
 
 logging.basicConfig(level=logging.INFO)
 
